@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ 
+
+  <h1 id="title">A Cyclists Dream Bike</h1>
+
+<p id="description">This is a collection of information on the best bicycles</p>
+
+<form id="survey-form">
+  <label id="name-label">First name:</label>
+  <input id="name" type="text" name="username" placeholder="enter your first name" class="input-bars" required> 
+  <br>
+  
+  <label id="email-label">Email:</label>
+  <input id="email" type="email" purpose="email-label" name="email" placeholder="enter you email" class="input-bars" required> 
+  <br>
+  
+  <label id="number-label">Age</label>
+  <input id="number" type="number" min="0"  max="100" name="age" placeholder="age" class="input-bars" required> 
+  <br>
+  <label id="dropdown" for="bikes">Choose you favourite bicycle brand</label>
+<select id="dropdown" name="bikes" class="input-bars">
+  <option value="specialized">Specialized</option>
+  <option value="cannondale">Cannondale</option>
+  <option value="canyon">Canyon</option>
+  <option value="swift">Swift</option>
+</select>
+  <br>
+  <br>
+  <h4>Select your gender</h4>
+  <input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label>
+  <br>
+  <p>Which groupset do you prefer?</p>
+  <input type="radio" id="shimano" name="bike brand" value="shimano">
+  <label for="shimano">Shimano</label><br>
+  <input type="radio" id="campangnolo" name="bike brand" value="campangnolo">
+  <label for="campangnolo">Campangnolo</label><br>
+  <input type="radio" id="sram" name="bike brand" value="sram">
+  <label for="sram">Sram</label>
+  <br>
+  <p>Cardon or Aluminum frames?</p>
+  <input type="checkbox" id="carbon" name="bike material" value="carbon">
+  <label for="carbon">Carbon</label><br>
+  <input type="checkbox" id="aluminumm" name="bike material" value="aluminum">
+  <label for="aluminum">Aluminum</label>
+  <br>
+  <br>
+  <lable for ="textarea">Please do let us know if you have any questions of comments.</lable><br>
+  <textarea id="comments" name="cemments" rows="4" cols="50">enter comment
+  
+  </textarea>
+  <br>
+  <button id="submit">SUBMIT</button>
+  
+</form>
+
+  
+
+
+</body>
+</html>
